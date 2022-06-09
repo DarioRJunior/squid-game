@@ -13,20 +13,23 @@ Projeto: 🚀Concluído
 
 ## 💻 Objetivo
  
- Projeto sendo desenvolvido para matéria de PHP da Unicuritiba. O seguinte projeto tem como objetivo apresentar um sistema com o tema de Vendas.
- Então resolvi criar um sistema de vendas de mangá, aonde teremos os seguintes sistemas:
- - Login e Cadastro
- - Cadastrar mangás - Apenas ADM
- - Edição de cadastro de mangá - Apenas ADM
- - Apagar Cadastro de mangá - Apenas ADM
+ Este projeto tem como objetivo a conclusão do Bootcamp Front-end realizado pela empresa BRQ!
+ Gostaria muito de agradecer a BRQ pela oportunidade e principalmente a Alura que foi a plataforma disponibilizada para estudar o conteúdo do cronograma passado.
+ 
+ Do que se trata o projeto? 
+ Bom utilizei como base o script passado e o design disponibilizado no figma para poder obter as principais funções do site. O site em si se trata de um jogo de adivinhação de numeros, no qual o computador irá escolher um numero dentro de 3 opções:
+ - Opção 1 : 1 a 10
+ - Opção 2 : 1 a 100
+ - Opção 3 : 1 a 200
+ E você terá 3 tentativas de acertar este número, caso contrário o jogo terminará, Depois disso utilizei minha criativdade para refazer o Design baseado na série Round 6 da Netflix, aonde o usuário terá que descobrir o número de batatinhas fritas que a boneca irá pensar, caso contrario você perde o jogo haha.
 
 
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- <img align="center" alt="Dario-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">HTML5
-- <img align="center" alt="Dario-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS3
+- <img alt="Dario-HTML" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
+- <img alt="Dario-CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
 - <img alt="Dario-JS" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
 
 ## 🦸 Autor
