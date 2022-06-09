@@ -22,7 +22,7 @@ Projeto: 🚀Concluído
  - Opção 1 : 1 a 10
  - Opção 2 : 1 a 100
  - Opção 3 : 1 a 200
- E você terá 3 tentativas de acertar este número, caso contrário o jogo terminará, Depois disso utilizei minha criativdade para refazer o Design baseado na série Round 6 da Netflix, aonde o usuário terá que descobrir o número de batatinhas fritas que a boneca irá pensar, caso contrario você perde o jogo haha.
+E você terá 3 tentativas de acertar este número, caso contrário o jogo terminará, Depois disso utilizei minha criativdade para refazer o Design baseado na série Round 6 da Netflix, aonde o usuário terá que descobrir o número de batatinhas fritas que a boneca irá pensar, caso contrario você perde o jogo haha.
  
  ## Design
  Abaixo temos como ficou o Design do site:
