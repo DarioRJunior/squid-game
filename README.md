@@ -7,6 +7,7 @@ Projeto: 🚀Concluído
 <p align="center">
  <a href="#-objetivo">Objetivo</a> •
  <a href="#-tecnologias">Tecnologias</a> •
+   <a href="#-design">Design</a> •
  <a href="#-autor">Autor</a> • 
  <a href="#-licença">Licença</a>
 </p>
@@ -22,6 +23,10 @@ Projeto: 🚀Concluído
  - Opção 2 : 1 a 100
  - Opção 3 : 1 a 200
  E você terá 3 tentativas de acertar este número, caso contrário o jogo terminará, Depois disso utilizei minha criativdade para refazer o Design baseado na série Round 6 da Netflix, aonde o usuário terá que descobrir o número de batatinhas fritas que a boneca irá pensar, caso contrario você perde o jogo haha.
+ 
+ ## Design
+ Abaixo temos como ficou o Design do site:
+<img src="https://user-images.githubusercontent.com/62716267/172745989-affa7a96-cd2e-41e0-96d8-689e2d932d4b.jpg">
 
 
 ## 🛠 Tecnologias
