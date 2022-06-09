@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Batata frita</title>
+    <link rel="shortcut icon" href="src/img/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="boneca">
+            <img id="boneca-img" src="src/img/image-0.png" alt="">
+        </div>
+        <div class="box-titulo">
+            <h1>ADIVINHE</h1>
+        </div>
+        <div class="box-container">
+            <div class="game-container">
+                <div class="opcoes">
+                    <img src="src/img/user.png" alt="">
+                    <p>Nick:</p>
+                    <input type="text" name="nick" id="nick" placeholder="Digite seu nome">
+                    <p>Intervalo:</p>
+                    <select name="dificuldade" id="dificuldade" onchange="comecou()">
+                        <option value="1" selected>Opção 1: 1 a 10 </option>
+                        <option value="2">Opção 2: 1 a 100</option>
+                        <option value="3">Opção 3: 1 a 200</option>
+                    </select>
+                    <button class="btn-comecar" onclick="startGame()">Começar</button>
+                </div>
+                <div class="line"></div>
+                <div class="game">
+                    <p class="regras">Bem-vindo, <span id="nickname"></span>, vamos jogar!<br> De acordo com a opção de
+                        intervalo que você escolheu, descubra o número de batatinhas fritas.</p>
+                    <p id="digite-numero">Digite um número:</p>
+                    <input id="input-game" type="text" placeholder="Digite o número">
+                    <button id="jogar" class="btn-jogar" onclick="jogar()">Jogar</button>
+                    <div class="resultado">
+                        <p id="message"></p>
+                        <p id="chances"></p>
+                        <button class="btn-ganhou" onclick="reset()">Recomeçar</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <div id="modal-gameover" class="modal-container">
+        <div class="modal">
+            <!-- <button class="fechar">X</button> -->
+            <h3 class="subtitulo">Game over! Você perdeu</h3>
+            <div class="end-game">
+                <img src="src/img/image-5.png" alt="">
+            </div>
+            <div class="btn-container">
+                <button class="btn-recomecar" onclick="reset()">Recomeçar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
